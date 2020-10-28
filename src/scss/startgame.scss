@@ -1,0 +1,50 @@
+.startgame {
+  &__block {
+
+  }
+
+  &__registr {
+    max-width: 50%;
+    position: relative;
+    padding-top: 70px;
+    padding-left: 55px;
+
+    span {
+      display: inline-block;
+      position: absolute;
+      left: 80px;
+      top: 65px;
+      font-size: 81px;
+      color: white;
+    }
+
+    label {
+      input {
+        margin-top: 30px;
+        width: 300px;
+        height: 50px;
+        border: none;
+        border-radius: 15px;
+        background-color: gainsboro;
+        color: black;
+        outline: none;
+        padding: 0 10px;
+
+      }
+
+      .btn {
+        width: 200px;
+        background-color: #ff6c00;
+        color: white;
+        transition: 0.5s all;
+
+        &:hover {
+          transform: scale(1.1);
+          -webkit-box-shadow: -1px 0 19px 0 rgba(249, 143, 37, 1);
+          -moz-box-shadow: -1px 0 19px 0 rgba(249, 143, 37, 1);
+          box-shadow: -1px 0 19px 0 rgba(249, 143, 37, 1);
+        }
+      }
+    }
+  }
+}

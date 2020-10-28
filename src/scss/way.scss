@@ -1,0 +1,83 @@
+.chooseWay {
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+  &__title {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+    background: url("../img/way/chooseWay__title.png") no-repeat center;
+    padding: 29px 50px 23px 10px;
+    display: inline-block;
+    max-width: 907px;
+    text-align: center;
+    margin-top: 89px;
+    &1 {
+      margin-right: 50px;
+    }
+  }
+  &-card {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .chooseWay-card__img2 {
+    img {
+      transform: rotate(5deg);
+    }
+  }
+  &-card__img {
+    position: relative;
+    &1::before {
+      content: url("../img/way/Ellipse_1_copy_2.png");
+      border-radius: 50%;
+      background-image: linear-gradient(to top, #ff6c00 0%, #ffc600 100%);
+      display: inline-block;
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+      right: 12px;
+    }
+    &2::before {
+      content: url("../img/way/Ellipse_1_copy_2.png");
+      border-radius: 50%;
+      background-image: linear-gradient(to top, #ff6c00 0%, #ffc600 100%);
+      display: inline-block;
+      position: absolute;
+      z-index: -1;
+      bottom: 35px;
+      left: -10px;
+    }
+    &3::before {
+      content: url("../img/way/Ellipse_1_copy_2.png");
+      border-radius: 50%;
+      background-image: linear-gradient(to top, #ff6c00 0%, #ffc600 100%);
+      display: inline-block;
+      position: absolute;
+      z-index: -1;
+      bottom: 54px;
+    }
+  }
+  &-card__text {
+    color: #1d1c1c;
+    font-size: 21px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    &1 {
+      margin-top: 39px;
+    }
+  }
+  &-slider {
+    margin-top: 71px;
+  }
+}

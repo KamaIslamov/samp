@@ -1,0 +1,30 @@
+.mainscreen {
+  &__title {
+    width: 543px;
+    h1 {
+      color: #1d1c1c;
+      font-size: 38px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    h3 {
+      width: 542px;
+      height: 57px;
+      color: #1d1c1c;
+      font-size: 17px;
+      font-weight: 500;
+    }
+
+  }
+  &__line {
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    top: 479px;
+  }
+
+}
+
+.bg {
+  background: url("../img/header/bg.png") center/cover no-repeat;
+}

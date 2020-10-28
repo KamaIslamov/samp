@@ -1,0 +1,79 @@
+.footer {
+  position: relative;
+  margin-top: 100px;
+  &__container {
+    padding-top: 94px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 266px;
+  }
+  &__vkButton {
+    color: #ffffff;
+    font-size: 47px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+    background: url("../img/footer/footer__vkButton__bg.png") no-repeat center;
+    padding: 23px 48px 22px 65px;
+    display: inline-block;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    &1 {
+      margin-right: 40px;
+    }
+  }
+  &__wrapper {
+    max-width: 406px;
+    background: url("../img/footer/footer__wrapper__bg.png") no-repeat top;
+    background-size: contain;
+    margin: 0 auto;
+  }
+  &__text {
+    color: #1d1c1c;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding-top: 128px;
+    margin-bottom: 46px;
+  }
+  &__groupButton {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    display: block;
+    background-color: #1d1c1c;
+    background-image: linear-gradient(to top, #ff6c00 0%, #ffc600 100%);
+    padding: 31px 69px 30px 69px;
+    border-radius: 40px;
+    transition: 0.5s all;
+
+    &:hover {
+      transform: scale(1.1);
+      -webkit-box-shadow: -1px 0 19px 0 rgba(249, 143, 37, 1);
+      -moz-box-shadow: -1px 0 19px 0 rgba(249, 143, 37, 1);
+      box-shadow: -1px 0 19px 0 rgba(249, 143, 37, 1);
+    }
+  }
+  &__man {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+  &__line {
+    max-width: 100%;
+    position: absolute;
+    top: -70px;
+  }
+}

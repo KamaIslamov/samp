@@ -1,0 +1,29 @@
+.infoblock {
+  &__title {
+    span {
+      font-size: 28px;
+      display: inline-block;
+      padding-top: 102px;
+    }
+    label {
+      input {
+        width: 200px;
+        height: 50px;
+        background-color: #ff6c00;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 15px;
+        margin: 80px;
+        transition: 0.5s all;
+
+        &:hover {
+          transform: scale(1.1);
+          -webkit-box-shadow: -1px 0 19px 0 rgba(249, 143, 37, 1);
+          -moz-box-shadow: -1px 0 19px 0 rgba(249, 143, 37, 1);
+          box-shadow: -1px 0 19px 0 rgba(249, 143, 37, 1);
+        }
+      }
+    }
+  }
+}

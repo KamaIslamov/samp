@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!--Мета-данные страницы!-->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Название страницы!-->
+    <title>Hacaton Oblivion</title>
+    <!--Подключение библиотек!-->
+    <link rel="stylesheet" href="./src/libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/libs/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="./src/libs/wow-animation/animate.min.css">
+    <!--Подключение стилей!-->
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+
+<div class="wrapper">
+    <div class="bg">
+        <header class="header">
+            <div class="container">
+                <nav class="header__nav d-flex">
+                    <a href="#"><img src="./src/img/header/logo.png" alt="Logo"></a>
+                    <div class="header__nav-links d-flex justify-content-between align-items-center">
+                        <a class="header__nav-link" href="#mainscreen">Главная</a>
+                        <a class="header__nav-link" href="#startgame">Как начать игру</a>
+                        <a class="header__nav-link" href="#infoblock">Скачать</a>
+                        <a class="header__nav-link" href="#footer">ВКонтакте</a>
+                        <a class="header__nav-link popup-link" href="#cab-popup">Личный кабинет</a></div>
+                </nav>
+            </div>
+        </header>
+        <section class="mainscreen" id="mainscreen">
+            <div class="container">
+                <div class="d-flex justify-content-around align-items-center">
+                    <div class="mainscreen__title ">
+                        <h1>GTA : SAMP</h1>
+                        <h3>The incident occurred after the victory of the race Bolt in the 200 meters, which earned him
+                            a
+                            jubilee, the 10th medal of the highest dignity.</h3>
+                    </div>
+                    <img class="mainscreen__player" src="./src/img/mainscreen/player1.png" alt="Player">
+                </div>
+                <img class="mainscreen__line" src="./src/img/mainscreen/line.png" alt="Line">
+            </div>
+
+        </section>
+    </div>
+    <div class="cab-popup popup all-popup" id="cab-popup">
+        <div class="cab-popup__body all-popup__body">
+            <div class="cab-popup__content popup__content all-popup__content">
+                <a href="#" class="cab-popup__close close-popup all-popup__close"><img
+                        src="src/img/popup/ourWorks-popup.svg" alt=""></a>
+                <h3 class="cab-popup__title all-popup__title">Личный Кабинет</h3>
+                <form action="#">
+                    <div class="cab-popup__input all-popup__input all-popup__input-highlighted"><input
+                            placeholder="Логин" type="text" required></div>
+                    <div class="cab-popup__input all-popup__input"><input placeholder="Пароль" type="password" required>
+                    </div>
+                    <div class="cab-popup__submitButton all-popup__submitButton"><input type="submit" value="войти">
+                    </div>
+                    <div class="cab-popup__miniText all-popup__miniText">Совет: ни с кем не делитесь свои паролем</div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="startgame wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s" data-wow-offset="120" id="startgame">
+    <div class="container">
+        <div class="startgame__block d-flex">
+            <img src="./src/img/startgame/mans.png" alt="Mans">
+            <div class="startgame__registr">
+                <img src="./src/img/footer/footer__vkButton__bg.png" alt="bg">
+                <span>Как   играть?</span>
+                <label class="d-flex flex-column align-items-center">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Фамилия">
+                    <input type="email" placeholder="Е-mail">
+                    <input type="text" placeholder="Ник в игре">
+                    <input class="btn" type="submit" value="Зарегистрироваться">
+                </label>
+            </div>
+        </div>
+    </div>
+</section>
+<img class="blackline" src="./src/img/infoblock/line.PNG" alt="">
+<section class="infoblock wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0.3s" data-wow-offset="120" id="infoblock">
+    <div class="container">
+        <div class="infoblock__block d-flex justify-content-around">
+            <div class="infoblock__title">
+                <span>SAMP - San Andreas Multi Player <br>
+                    <br>
+                    <br>
+                    <br>
+                    San Andreas Multiplayer (SA:MP) это модификация к Grand Theft Auto: San Andreas, которая добавляет в игру мультиплеер. Вы можете играть по интернету (или локальной сети) с сотней людей. Вам нужна оригинальная игра Grand Theft Auto: San Andreas, чтобы иметь возможность играть с San Andreas Multiplayer.</span>
+                <label><input type="submit" value="Скачать"></label>
+            </div>
+            <img src="./src/img/infoblock/klipartz.com%20(2).png" alt="Woman">
+        </div>
+    </div>
+</section>
+<img class="blackline" src="./src/img/mainscreen/line.png" alt="line">
+<section class="chooseWay wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s" data-wow-offset="120" id="chooseWay">
+    <div class="container">
+        <div class="chooseWay__container">
+            <div class="chooseWay__title">
+                <span class="chooseWay__title1">ВЫБЕРИ СВОЙ</span> <span class="chooseWay__title2">ПУТЬ</span>
+            </div>
+        </div>
+        <div class="slider-container chooseWay-slider">
+            <div class="swiper-container chooseWaySwiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide card chooseWay-card">
+                        <div class="chooseWay-card__img chooseWay-card__img1"><img src="./src/img/way/man1.png"
+                                                                                   alt="Man"></div>
+                        <p class="chooseWay-card__text chooseWay-card__text1">Ты можешь стать убийцей и тем самым
+                            заработь себе на жизнь</p>
+                    </div>
+                    <div class="swiper-slide card chooseWay-card">
+                        <div class="chooseWay-card__img chooseWay-card__img2"><img src="./src/img/way/man2.png"
+                                                                                   alt="Man"></div>
+                        <p class="chooseWay-card__text">Или же другим криминальным
+                            способом ты можешь увеличить
+                            свой капитал. А именно
+                            разбои и грабежи </p>
+                    </div>
+                    <div class="swiper-slide card chooseWay-card">
+                        <div class="chooseWay-card__img chooseWay-card__img3"><img src="./src/img/way/man3.png"
+                                                                                   alt="Man"></div>
+                        <p class="chooseWay-card__text">Но так же ты можешь
+                            встать на сторону правосудия
+                            и быть гос. служащим</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__container ">
+            <a href="#" class="footer__vkButton">
+                <span class="footer__vkButton1">МЫ</span> <span class="footer__vkButton2">ВКОНТАКТЕ</span>
+            </a>
+            <div class="footer__wrapper">
+                <div class="footer__text">ОФИЦИАЛЬНАЯ ГРУППА</div>
+                <a href="#" class="footer__groupButton">ВСТУПИТЬ В ГРУППУ</a>
+            </div>
+        </div>
+    </div>
+    <img class="footer__man" src="./src/img/footer/footer__man.png" alt="">
+    <img class="footer__line" src="./src/img/footer/line.png" alt="">
+</footer>
+
+
+<!--Подключение иконочных шрифтов!-->
+<script src="https://kit.fontawesome.com/e624aaa695.js" crossorigin="anonymous"></script>
+<!--Подключение Swiper-->
+<script src="src/libs/swiper/swiper-bundle.min.js"></script>
+<!--Wow-->
+<script src="./src/libs/wow-animation/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<!--Подключение своего скрипта!-->
+<script src="./src/js/main.js"></script>
+</body>
+</html>

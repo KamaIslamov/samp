@@ -1,0 +1,7 @@
+<svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.15" cx="20.5" cy="20.5" r="20.5" fill="#C4C4C4"/>
+<g opacity="0.7">
+<line x1="13.8409" y1="12.554" x2="29.03" y2="27.7432" stroke="white"/>
+<line y1="-0.5" x2="21.4807" y2="-0.5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 13 27.1891)" stroke="white"/>
+</g>
+</svg>
